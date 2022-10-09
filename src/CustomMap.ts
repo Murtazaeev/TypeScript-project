@@ -1,6 +1,3 @@
-import { User } from './User'
-import { Company } from './Company'
-
 // this will be the instruction to every other class on how they can be an argument to addMarker
 interface Mappable {
   location: {
@@ -35,6 +32,7 @@ export class CustomMap {
     })
   }
 
+  // baaad!!
   // addCompanyMarker(company: Company): void {
   //   new google.maps.Marker({
   //     position: {
